@@ -1,13 +1,13 @@
 #absolute {
     width: 960px;
-    background-color:orange;
+    background-color:black;
     height: 100px;
     text-align: center;
     color: white;
     line-height: 100px;
     border-color: rgb(0, 204, 255);
     border-style: solid;
-    border-width: 20px;
+    border-width: 10px;
     margin-left: auto;
     margin-right: auto;
     font-size: 60px;
@@ -15,7 +15,9 @@
 
 .wrapper {
     background-color: white;
-    height: 960px;
+    position: relative;
+    top: 350px;
+    height: 800px;
     width: 960px;
     border-color: grey;
     border-width: 2px;
@@ -27,4 +29,22 @@
 img {
     position: absolute;
     left: 400px;
+}
+
+h1 {
+    position: relative;
+    top: 0px;
+    text-align: center;
+}
+
+#gifContainer {
+    position: absolute;
+    right: 800px;
+    top: 45px;
+}
+
+#gifContainer2 {
+    position: absolute;
+    left: -47px;
+    top: 45px;
 }
